@@ -9,7 +9,7 @@ public class Question6 {
             {
                 if(col>=5-row && col<=3+row)
                 {
-                    System.out.print("* ");
+                    System.out.print("*");
                 }
                 else{
                     System.out.print(" ");
