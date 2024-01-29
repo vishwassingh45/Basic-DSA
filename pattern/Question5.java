@@ -8,7 +8,7 @@ public class Question5 {
             int formula=row>n?2*n-row-1:row;
             for(int col=1;col<=formula;col++)
             {
-                System.out.print("* ");
+                System.out.print("*");
             }
             System.out.println();
         }
