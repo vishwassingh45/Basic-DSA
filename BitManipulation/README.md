@@ -7,4 +7,9 @@
 
    example:- Input:- int a=2,b=3,c=5
              Output:- 235
+
+2. Convert Decimal to Binary.
+   
+   example:- Input:- 35
+             output:-10001
 ```
