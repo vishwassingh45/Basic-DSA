@@ -18,4 +18,13 @@
        example:- Input:- 1101
                  Output:- 13
              
+4. Convert Decimal to Octal
+      
+      example:- Input:- 35
+                Output:-43
+                
+5. Convert Octal to Decimal
+      
+      example:- Input:- 43
+                Ouput:- 35
 ```
