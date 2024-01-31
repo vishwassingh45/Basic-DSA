@@ -37,7 +37,7 @@
                  output:-1111
 
 
-6. Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
+8. Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
     
      example:-  Input: num = 38
                 Output: 2
