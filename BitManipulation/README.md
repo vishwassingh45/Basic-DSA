@@ -12,4 +12,10 @@
    
    example:- Input:- 35
              output:-10001
+             
+3. Convert Binary to Decimal
+       
+       example:- Input:- 1101
+                 Output:- 13
+             
 ```
