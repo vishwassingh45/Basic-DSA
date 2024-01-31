@@ -46,4 +46,14 @@ Explanation: The process is
 38 --> 3 + 8 --> 11
 11 --> 1 + 1 --> 2 
 Since 2 has only one digit, return it
+
+9. For an input year N, find whether the year is a leap or not. 
+  
+     example :- Input: N = 4
+                Output: 1
+Explanation:
+4 is not divisible by 100
+and is divisible by 4 so its
+a leap year
+
 ```
