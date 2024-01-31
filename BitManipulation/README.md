@@ -27,4 +27,12 @@
       
       example:- Input:- 43
                 Ouput:- 35
+                
+6.  Convert Binary to Octal
+       example:- Input:- 1111
+                 Output:- 17
+                 
+7.  Convert Octal to Binary
+       example:- Input:- 17
+                 output:-1111
 ```
