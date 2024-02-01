@@ -103,4 +103,8 @@ Input: x = -121
 Output: false
 Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 
+13. Calculate One's Complement.
+
+14. Count Bit.
+
 ```
