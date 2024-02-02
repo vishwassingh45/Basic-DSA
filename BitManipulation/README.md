@@ -106,5 +106,20 @@ Explanation: From left to right, it reads -121. From right to left, it becomes 1
 13. Calculate One's Complement.
 
 14. Count Bit.
+15. Check even or Odd.
+
+16. Convert to uppercase.
+   example :-  Input:- 'a'
+               Output:- 'A'
+               
+               
+17. Write a code to calculate armstrong number.
+Note :- Armstrong numbers are those numbers which are equal to the sum of the digits of the number each raised to the power of the number of digits in the number itself.
+
+example:- Input:- 153
+          Ouput :-  True
+
+Explain:- 1^3 + 5^3 + 3^3 = 153
+
 
 ```
