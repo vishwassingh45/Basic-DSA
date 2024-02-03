@@ -1,5 +1,6 @@
 package DSA_with_JAVA.Array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Introduction {
@@ -38,8 +39,11 @@ public class Introduction {
         System.out.println();
         // Using for each loop
         for (int elem : numbers) { // for  every element in array print all elem
-            System.out.print(" " +elem); // Here the elem represents the element of the array
+            System.out.print(" " +elem); // Here the elem represents the element of the array.
         }
+
+        // toString() Function
+        System.out.println(Arrays.toString(numbers));
 
 
     }
