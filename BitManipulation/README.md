@@ -145,5 +145,5 @@ Output:
 Explanation:
 4! = 24 so the number of trailing zero is 0.
 
-
+19. You have 4 integers,check whether they are form a rectangle.
 ```
