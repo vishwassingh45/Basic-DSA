@@ -12,4 +12,14 @@
 2. Create an array of char types and store ‘a’ to ‘z’ in it. Then print the element of the arrays.
 3. Find the second largest element in an array of unique elements of size n. Where n>3.
 4. Find the third smallest element in an array of unique elements size n. Where n>3.
+5.Given an unsorted array arr[] of size n having both negative and positive integers. The task is place all negative element at the end of array without changing the order of positive element and negative element.
+
+Example 1:
+
+Input : 
+n = 8
+arr[] = {1, -1, 3, 2, -7, -5, 11, 6 }
+Output : 
+1  3  2  11  6  -1  -7  -5
+
 ```
