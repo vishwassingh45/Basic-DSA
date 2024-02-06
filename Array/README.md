@@ -22,4 +22,19 @@ arr[] = {1, -1, 3, 2, -7, -5, 11, 6 }
 Output : 
 1  3  2  11  6  -1  -7  -5
 
+7. Reverse the array
+Example :-  Input:- [1,2,3,4,5]
+            Output:- [5,4,3,2,1]
+
+8. Given an array Arr of size N, print the second largest distinct element from an array. If the second largest element doesn't exist then return -1.
+
+Example 1:
+
+Input: 
+N = 6
+Arr[] = {12, 35, 1, 10, 34, 1}
+Output: 34
+Explanation: The largest element of the 
+array is 35 and the second largest element
+is 34.
 ```
