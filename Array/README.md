@@ -37,4 +37,25 @@ Output: 34
 Explanation: The largest element of the 
 array is 35 and the second largest element
 is 34.
+
+
+9. Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.
+
+Example 1:
+
+Input:
+N = 5
+A[] = {1,2,3,5}
+Output: 4
+
+
+10. Cyclically rotate an array by one
+
+Example 1:
+
+Input:
+N = 5
+A[] = {1, 2, 3, 4, 5}
+Output:
+5 1 2 3 4
 ```
