@@ -84,4 +84,10 @@ Explanation:
 its first appearence is at index 2 
 which is less than 3 whose first 
 occuring index is 3.
+
+
+14. Find unique element in an array.
+ 
+    Example:- [1,1,3,2,2]
+         Output:- 3 
 ```
