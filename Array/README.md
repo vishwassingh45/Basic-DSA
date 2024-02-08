@@ -90,4 +90,13 @@ occuring index is 3.
  
     Example:- [1,1,3,2,2]
          Output:- 3 
+         
+15 check if the array is sorted or not
+   Note:- The indexing will start from 1
+   
+   Example1 :- [1,2,2,3,3,4]
+   output:- true
+   
+   Example2 :- [1,2,1,3,4]
+   output:- false
 ```
