@@ -119,4 +119,61 @@ Example 3:
 
 Input: arr = [0,10,5,2]
 Output: 1
+
+
+
+6. Search in Rotated Sorted Array
+
+
+   There is an integer array nums sorted in ascending order (with distinct values).
+
+Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2].
+
+Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+
+   Example 1:
+
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
+Example 2:
+
+Input: nums = [4,5,6,7,0,1,2], target = 3
+Output: -1
+Example 3:
+
+Input: nums = [1], target = 0
+Output: -1
+
+
+
+7.  Search In A Rotated Sorted Array II
+
+
+
+ Problem statement
+You are given a rotated sorted array 'a' of length 'n' and a 'key'. You need to determine if the 'key' exists in the array 'a'.
+
+
+
+The given sorted array is rotated from an unknown index 'x'. Such that after rotation the array became [a[x], a[x+1]...., a[n-1], a[1]..., a[x-1]], (0-based indexing). For example, if the array is [1, 2, 3, 4, 5] and x = 2 then the rotated array will be [3, 4, 5, 1, 2, 3].
+
+
+
+Return True if the 'key' is found in 'a'. Otherwise, return False.
+
+
+
+Note: Array ‘a’ may contain duplicate elements.
+
+
+Example:
+
+Input: a = [6, 10, 1, 3, 5], key = 3
+
+Output: True
+
+Explanation: The array 'a' contains the 'key' = 3, so we return True.
 ```
