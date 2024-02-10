@@ -214,4 +214,18 @@ Explanation:- arr=['a','c', 'f','h']
               Output:='h'
 
 Note :- You don't return the value which is already in the array.
+
+
+12. Search in a sorted infinite array
+   example :- [1,2,3,4,5,6,7,8,9,10, ...... , infinite]
+              target=7
+              output:4(index)
+              
+              
+13. Find the index of 1st 1 in an infinite Binary sorted array
+    Example :- [0,0,0,1,1,1, ... , infinite]
+     You have to return the index of first occurrence of 1 
+     
+    
+
 ```
