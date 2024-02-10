@@ -204,4 +204,14 @@ The ceiling of x is the smallest element in the array greater than or equal to x
 Input Format: n = 6, arr[] ={3, 4, 4, 7, 8, 10}, x= 5
 
 Result: 7
+
+
+
+
+11. Find the Next Letter
+
+Explanation:- arr=['a','c', 'f','h']
+              Output:='h'
+
+Note :- You don't return the value which is already in the array.
 ```
