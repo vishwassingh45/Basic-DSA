@@ -121,8 +121,15 @@ Input: arr = [0,10,5,2]
 Output: 1
 
 
+6. Find Pivot element in an array
+   Note:- Pivot element is a smallest element in an array.
+ 
+Example :- Input:- arr[3,8,17,1]
+            Output:- 4(index)
 
-6. Search in Rotated Sorted Array
+
+
+7. Search in Rotated Sorted Array
 
 
    There is an integer array nums sorted in ascending order (with distinct values).
@@ -149,7 +156,7 @@ Output: -1
 
 
 
-7.  Search In A Rotated Sorted Array II
+8.  Search In A Rotated Sorted Array II
 
 
 
@@ -176,4 +183,25 @@ Input: a = [6, 10, 1, 3, 5], key = 3
 Output: True
 
 Explanation: The array 'a' contains the 'key' = 3, so we return True.
+
+9. Floor valuein Sorted Array
+     The floor of x is the largest element in the array which is smaller than or equal to x.
+     
+     Example 1:
+Input Format: n = 6, arr[] ={3, 4, 4, 7, 8, 10}, x= 5
+
+Result: 4
+
+
+
+10. Ceil in Sorted Array
+
+
+The ceiling of x is the smallest element in the array greater than or equal to x.
+
+
+     Example 1:
+Input Format: n = 6, arr[] ={3, 4, 4, 7, 8, 10}, x= 5
+
+Result: 7
 ```
