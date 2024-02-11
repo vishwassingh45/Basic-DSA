@@ -226,6 +226,19 @@ Note :- You don't return the value which is already in the array.
     Example :- [0,0,0,1,1,1, ... , infinite]
      You have to return the index of first occurrence of 1 
      
+
+
+14. Minimum difference in a sorted array.
+    Note :- If target is present in the array then return the target
     
+    Explanation:- You have an array and a target , you have to minus the target
+    from each and every element of the array and find minimum difference.
+    
+    Example :- [1, 3, 8 , 10 , 15] target=12
+              -[12,12,12 ,12 , 12]
+             -------------------------
+                 11 , 15, 4 ,2, 3
+                 
+                 Output:- 2(minimum difference)
 
 ```
