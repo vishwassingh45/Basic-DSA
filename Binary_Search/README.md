@@ -184,7 +184,7 @@ Output: True
 
 Explanation: The array 'a' contains the 'key' = 3, so we return True.
 
-9. Floor valuein Sorted Array
+9. Floor value in Sorted Array
      The floor of x is the largest element in the array which is smaller than or equal to x.
      
      Example 1:
@@ -240,5 +240,17 @@ Note :- You don't return the value which is already in the array.
                  11 , 15, 4 ,2, 3
                  
                  Output:- 2(minimum difference)
+                 
+15. Find maximum in Bitonic Array.
+   Note:- Bitonic array is that array where the element increase and decrease
+        Example:- [1,3,8,12,4,2]
+        
+   Explanation :- Maximum in Bitonic array is element should be greater than its neighbours
+                  arr[mid] should be greater than arr[mid-1]
+                  arr[mid] should be greater than arr[mid+1]
+
+             0 ,1 ,2 ,3
+ Example :- [5,10,20,15]
+         Output:- 2(index)
 
 ```
