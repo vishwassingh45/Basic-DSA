@@ -310,4 +310,37 @@ Output: 11
 Explanation:
 First painter can paint boards 1 to 3 in 8 units of time and the second painter can paint boards 4-6 in 11 units of time. Thus both painters will paint all the boards in max(8,11) = 11 units of time. It can be shown that all the boards can't be painted in less than 11 units of time.
 
+
+
+19. Aggressive Cows
+
+
+
+Problem statement
+You are given an array 'arr' consisting of 'n' integers which denote the position of a stall.
+
+
+
+You are also given an integer 'k' which denotes the number of aggressive cows.
+
+
+
+You are given the task of assigning stalls to 'k' cows such that the minimum distance between any two of them is the maximum possible.
+
+
+
+Print the maximum possible minimum distance.
+
+
+
+
+
+Sample Input 1 :
+5 2
+4 2 1 3 6
+
+
+Sample Output 2 :
+5
+
 ```
