@@ -252,10 +252,12 @@ Note :- You don't return the value which is already in the array.
              0 ,1 ,2 ,3
  Example :- [5,10,20,15]
          Output:- 2(index)
+  
+  
+  16 . Search in Bitonic array.     
          
          
-         
-   16. Allocate minimum number of pages
+   17. Allocate minimum number of pages
 
 
 You have N books, each with A[i] number of pages. M students need to be allocated contiguous books, with each student getting at least one book.
@@ -293,7 +295,7 @@ Explanation: Allocation is done as
 
 
 
-17.  Painter's Partition Problem
+18.  Painter's Partition Problem
 
 PROBLEM STATEMENT:-
  Given an array/list of length ‘n’, where the array/list represents the boards and each element of the given array/list represents the length of each board. Some ‘k’ numbers of painters are available to paint these boards. Consider that each unit of a board takes 1 unit of time to paint.
