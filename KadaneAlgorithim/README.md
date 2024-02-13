@@ -35,4 +35,10 @@ Example :- arr=[6,4,5,-3,2,8]
  5
  
  
+4. Divide an array into two subarray and check whether the sum of subarrays is equal to the target
+
+Example :- arr[3,4,-2,5,8,20,-10,8]
+           Target=36
+ 
+ 
 ```
