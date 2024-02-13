@@ -44,6 +44,13 @@ Example :- arr[3,4,-2,5,8,20,-10,8]
 
 example:- arr[-2,1,-3,4,-1,2,1,-5,4]
 output:-6
+
+
+6. Find the largest difference in the contiguous sub array.
+
+Example :-  int []arr={2,3,10,6,4,8,1}
+
+output:-9
  
  
 ```
