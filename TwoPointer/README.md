@@ -58,4 +58,27 @@ Output 1:
 Output 2:
 
  1
+ 
+ 
+ 
+4. Product Pair
+
+Given an array arr[] of size N of distinct elements and a number X, find if there is a pair in arr[] with product equal to X.
+
+
+Example 1:
+
+Input:
+N = 4, X = 400
+arr[] = {10, 20, 9, 40}
+Output: Yes
+Explanation: As 10 * 40 = 400.
+
+Example 2:
+
+Input:
+N = 4, X = 30
+arr[] = {-10, 20, 9, -40}
+Output: No
+Explanation: No pair with product 30.
 ```
