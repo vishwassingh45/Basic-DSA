@@ -81,4 +81,36 @@ N = 4, X = 30
 arr[] = {-10, 20, 9, -40}
 Output: No
 Explanation: No pair with product 30.
+
+
+
+5. Remove Duplicates from Sorted Array
+
+
+
+Given a sorted array A consisting of duplicate elements.
+
+Your task is to remove all the duplicates and return the length of the sorted array of distinct elements consisting of all distinct elements present in A.
+
+Note: You need to update the elements of array A by removing all the duplicates
+
+
+
+
+Example Input
+Input 1:
+
+A = [1, 1, 2]
+Input 2:
+
+A = [1, 2, 2, 3, 3]
+
+
+Example Output
+Output 1:
+
+2
+Output 2:
+
+3
 ```
