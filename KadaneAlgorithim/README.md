@@ -39,6 +39,11 @@ Example :- arr=[6,4,5,-3,2,8]
 
 Example :- arr[3,4,-2,5,8,20,-10,8]
            Target=36
+           
+5. Find largest sum in the contiguous sub array .
+
+example:- arr[-2,1,-3,4,-1,2,1,-5,4]
+output:-6
  
  
 ```
