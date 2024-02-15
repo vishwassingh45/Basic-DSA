@@ -135,4 +135,22 @@ the array sums up to 13.
 
 7. Find the target is equal in the contiguous array 
 
+
+
+8. 4Sum
+
+Given an array A of N integers. You have to find whether a combination of four elements in the array whose sum is equal to a given value X exists or not.
+
+
+Example 1:
+
+Input:
+N = 6
+A[] = {1, 5, 1, 0, 6, 0}
+X = 7
+Output:
+1
+
+Explantion:
+1, 5, 1, 0 are the four elements which makes sum 7.
 ```
