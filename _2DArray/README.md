@@ -21,6 +21,19 @@ Note :- It is only applicable with same number of row and column.
   Output :- 2,2 
   
   
-  4. Column Sum .                  
+  4. Column Sum .       
+  
+  
+  5. WAVE MATRIX
+  
+  Example :- [ 3 6 4 2 ]
+             [ 7 8 11 5 ]
+             [ 9 3 2  1 ]
+             [ 17 8 5 9 ]
+  
+  Output:- 3 7 9 17 8 3 8 6 4 11 2 5 9 1 5 2
+  
+  
+             
  
 ```
