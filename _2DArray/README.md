@@ -18,6 +18,9 @@ Note :- It is only applicable with same number of row and column.
                       [ 1 1 1 ]
                       [ 1 1 1 ]
                       
-  Output :- 2,2                  
+  Output :- 2,2 
+  
+  
+  4. Column Sum .                  
  
 ```
