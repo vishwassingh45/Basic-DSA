@@ -10,6 +10,14 @@ Example:- Matrix -> [3,4,7,6] = 20
                     [2,8,9,4] = 23
                     
 Output:- 23
-                    
+
+
+3. Diagonal Sum
+Note :- It is only applicable with same number of row and column.
+ Example :- Matrix -> [ 1 1 1 ]
+                      [ 1 1 1 ]
+                      [ 1 1 1 ]
+                      
+  Output :- 2,2                  
  
 ```
