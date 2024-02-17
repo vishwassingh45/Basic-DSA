@@ -36,6 +36,23 @@ Note :- It is only applicable with same number of row and column.
   
   6 Spiral Matrix .
   
-  https://leetcode.com/problems/spiral-matrix/description/           
+  https://leetcode.com/problems/spiral-matrix/description/          
+  
+  
+  7. Transpose of Matrix
+  
+  Example 1:
+
+Input:
+N = 4
+mat[][] = {{1, 1, 1, 1},
+           {2, 2, 2, 2}
+           {3, 3, 3, 3}
+           {4, 4, 4, 4}}
+Output: 
+{{1, 2, 3, 4},  
+ {1, 2, 3, 4}  
+ {1, 2, 3, 4}
+ {1, 2, 3, 4}}  
  
 ```
