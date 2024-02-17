@@ -68,7 +68,7 @@ Output:
              {8, 5 , 2},
              {9, 6 , 3}}
              
-8. Rotate the matrix in Anticlockwise Direction.
+9. Rotate the matrix in Anticlockwise Direction.
  
  
  Example :- {{1, 2 , 3},
@@ -80,9 +80,9 @@ Output:
              {1, 4 , 7}}
              
  
- 9.  Rotate the matrix in 180 Degree.
+10.  Rotate the matrix in 180 Degree.
  
  
- 10. Binary Search on 2D array
+ 11. Binary Search on 2D array
  
 ```
