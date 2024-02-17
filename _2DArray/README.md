@@ -81,4 +81,8 @@ Output:
              
  
  9.  Rotate the matrix in 180 Degree.
+ 
+ 
+ 10. Binary Search on 2D array
+ 
 ```
