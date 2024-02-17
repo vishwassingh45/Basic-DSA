@@ -78,5 +78,7 @@ Output:
  Output :- {{3, 6 , 9},
              {2, 5 , 8},
              {1, 4 , 7}}
+             
  
+ 9.  Rotate the matrix in 180 Degree.
 ```
