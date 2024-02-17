@@ -34,6 +34,8 @@ Note :- It is only applicable with same number of row and column.
   Output:- 3 7 9 17 8 3 8 6 4 11 2 5 9 1 5 2
   
   
-             
+  6 Spiral Matrix .
+  
+  https://leetcode.com/problems/spiral-matrix/description/           
  
 ```
