@@ -1,4 +1,4 @@
-package DSA_with_JAVA.Strings;
+package DSA_with_JAVA.String_theory;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package DSA_with_JAVA.Strings;
+package DSA_with_JAVA.String_theory;
 
 public class PrettyPrinting {
     public static void main(String[] args) {

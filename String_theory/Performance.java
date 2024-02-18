@@ -1,4 +1,4 @@
-package DSA_with_JAVA.Strings;
+package DSA_with_JAVA.String_theory;
 
 public class Performance {
     public static void main(String[] args) {
