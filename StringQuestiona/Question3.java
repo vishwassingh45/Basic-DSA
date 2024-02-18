@@ -7,10 +7,10 @@ public class Question3 {
         {
             for(int j=0;j<b.length();j++)
             {
-                if(a.length()==b.length() && a.charAt(i)==a.charAt(j))
+
+                if(a.length()==b.length() && a.charAt(i)==a.charAt(j) )
                 {
                     return true;
-
                 }
 
             }
