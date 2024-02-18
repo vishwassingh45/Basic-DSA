@@ -33,5 +33,9 @@ Example :- String s="Data Structure and Algorithms";
  
  8. Write a Java code to get the contents of a given string as a byte array
  
+ 9. Reverse a String
+ 
+ Example :- "Vishwas"
+ output:- "sawhsiV"
  
 ```
