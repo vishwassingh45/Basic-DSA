@@ -18,4 +18,20 @@ Note :- Two strings are Lexicography equal if they are the same length and conta
 Example :- "Hello Good Morning"  check="Good"
 output:- true
 
+6. Write a java program to create a string object with a character array.
+Example :-  char [] ch={'V','i','s','h','w','a','s'}
+
+output:- Vishwas
+
+7. Write a java code to check whether two strings ends with another string.
+
+Example :- String s="Data Structure and Algorithms";
+            String dummy="rihthms";
+            
+ output:- true
+ 
+ 
+ 8. Write a Java code to get the contents of a given string as a byte array
+ 
+ 
 ```
