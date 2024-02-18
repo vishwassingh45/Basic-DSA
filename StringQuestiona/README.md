@@ -38,4 +38,8 @@ Example :- String s="Data Structure and Algorithms";
  Example :- "Vishwas"
  output:- "sawhsiV"
  
+ 
+ 
+ 10. Check Whether a String is Palindrome or not.
+ 
 ```
