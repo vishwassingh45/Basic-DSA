@@ -5,5 +5,6 @@
 4. Print all even from 1 to n.
 5. Print all number from 10 to n.
 6. Sum of n natural numbers.
-
+7. Sum of cubes of N natural numbers .
+8. Print Table .
 ```
