@@ -7,4 +7,7 @@
 6. Sum of n natural numbers.
 7. Sum of cubes of N natural numbers .
 8. Print Table .
+9. Calculate Power of 2
+10. Check whether the number is the power of 2 .
+
 ```
