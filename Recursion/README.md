@@ -11,4 +11,5 @@
 10. Check whether the number is the power of 2 .
 11. Find Factorial using recursion.
 12. Print Fibonacci series using recursion.
+13. Find sum of square of n natural numbers.
 ```
