@@ -9,5 +9,6 @@
 8. Print Table .
 9. Calculate Power of 2
 10. Check whether the number is the power of 2 .
-
+11. Find Factorial using recursion.
+12. Print Fibonacci series using recursion.
 ```
