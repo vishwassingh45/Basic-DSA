@@ -33,4 +33,28 @@ Explanation: There are three ways to climb to the top.
 1. 1 step + 1 step + 1 step
 2. 1 step + 2 steps
 3. 2 steps + 1 step
+
+
+16. Find GCD(Greatest common Divisor).
+17.A frog jumps either 1, 2, or 3 steps to go to the top. In how many ways can it reach the top of Nth step.
+
+Example 1:
+
+Input:
+N = 1
+Output: 1
+
+18. Fibonacci series up to Nth term
+You are given an integer n, return the fibonacci series till the nth(0-based indexing) term. 
+Example 1:
+
+Input:
+n = 5
+Output:
+0 1 1 2 3 5
+Explanation:
+0 1 1 2 3 5 is the Fibonacci series up to the 5th term.
+
+
+
 ```
