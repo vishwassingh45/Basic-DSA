@@ -12,4 +12,5 @@
 11. Find Factorial using recursion.
 12. Print Fibonacci series using recursion.
 13. Find sum of square of n natural numbers.
+14. Given a number check whether it is prime or not.
 ```
