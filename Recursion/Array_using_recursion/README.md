@@ -6,4 +6,5 @@
 5. Product of all element in array.
 6. Print all even elements in an array.
 7. Print the sum of all even elements in an array.
+8. Reverse the array.
 ```

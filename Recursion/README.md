@@ -56,5 +56,6 @@ Explanation:
 0 1 1 2 3 5 is the Fibonacci series up to the 5th term.
 
 
-
+19. Find Sum of digits.
+20. Count of Digits.
 ```
