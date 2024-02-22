@@ -1,6 +1,7 @@
 package DSA_with_JAVA.Merge_Sort;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class code {
     public static void MergeElement(int []arr,int start,int mid,int end)
@@ -70,10 +71,6 @@ public class code {
     public static void main(String[] args) {
         int []arr={6,4,7,2,9,8,3,5};
         MergeSort(arr,0,arr.length-1);
-
-        for(int elem:arr)
-        {
-            System.out.print(" "  + elem);
-        }
+        System.out.println(Arrays.toString(arr));
     }
 }
