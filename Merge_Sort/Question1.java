@@ -19,6 +19,9 @@ public class Question1 {
     }
 
 
+
+    // Optimal Approach [ TL:-O(nlogn) ]
+
     public static int MergeElement(int []arr,int start,int mid,int end)
     {
         int inversion=0;
@@ -35,7 +38,7 @@ public class Question1 {
             }
             else{
                 dummy[index]=arr[right];
-                inversion=inversion+(mid-left);
+                inversion+=mid-left+1;
                 right++;
                 index++;
             }
@@ -56,7 +59,7 @@ public class Question1 {
         index=0;
         while (start<=end)
         {
-            dummy[index]=arr[start];
+            arr[start]=dummy[index];
             start++;
             index++;
 
@@ -66,25 +69,19 @@ public class Question1 {
     public static int CountInversion(int []arr,int start,int end)
     {
         int inversion=0;
-  int mid=0;
+
         // Base case
-        if(end>start)
+       int mid= start + (end-start)/2;
+
+        if(start==end)
         {
-             mid= start + (end-start)/2;
-            inversion+=CountInversion(arr,start,mid);
-            inversion+=CountInversion(arr,mid+1,end);
-            inversion+=MergeElement(arr,start,mid,end);
+         return 0;
 
         }
 
-
-
-
-
-
-
-
-
+        inversion+=CountInversion(arr,start,mid);
+        inversion+=CountInversion(arr,mid+1,end);
+        inversion+=MergeElement(arr,start,mid,end);
 return inversion;
 
     }
