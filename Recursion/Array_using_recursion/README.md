@@ -10,5 +10,6 @@
 9. Check if the array is sorted or not.
 10. Find the first occurrence of an array.
 11. Find the Last occurrence of an array.
-  
+12. Binary Search.
+13. Linear search  
 ```
