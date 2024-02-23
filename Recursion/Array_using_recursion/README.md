@@ -7,4 +7,5 @@
 6. Print all even elements in an array.
 7. Print the sum of all even elements in an array.
 8. Reverse the array.
+9. Check if the array is sorted or not.
 ```
