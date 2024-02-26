@@ -4,17 +4,37 @@ package DSA_with_JAVA;
 
 public class Revision {
 
-    public static int Unique(int []arr)
+public static void SelectionSort(int []arr)
+{
+    int temp=0;
+    for(int i=0;i<arr.length;i++)
     {
-        int ans=0;
-        for(int i=0;i<arr.length;i++)
+        int min=i;
+
+        for(int j=i;j<arr.length;j++)
         {
-            ans=ans^arr[i];
+            if(arr[i]>arr[j])
+            {
+                min=j;
+            }
         }
-        return ans;
+        temp=arr[i];
+        arr[i]=arr[min];
+        arr[min]=temp;
     }
+
+}
+public static void Print(int []arr)
+{
+    for(int elem:arr)
+    {
+        System.out.print(" "  + elem);
+    }
+}
+
     public static void main(String[] args) {
-      int []arr={1,1,3,2,2};
-        System.out.println(Unique(arr));
+      int []arr={2,6,1,12,15};
+      SelectionSort(arr);
+      Print(arr);
     }
 }

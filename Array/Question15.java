@@ -8,8 +8,7 @@ public class Question15 {
             if(arr[i]>=arr[i-1])
             {
 
-            }
-            else{
+            } else {
                 return false;
             }
         }
