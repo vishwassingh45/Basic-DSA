@@ -1,29 +1,69 @@
 package DSA_with_JAVA;
 
+import java.util.ArrayList;
+
 public class Revision {
-    public static int Peak_in_Mountain(int []arr)
+    public static boolean isvalid(ArrayList<Integer>boards,int k,int mid)
     {
-        int start=0,end=arr.length-1;
+        int Painters=1;
+        int BoardSum=0;
 
-        int mid= start + (end-start)/2;
-        while(start<end)
+        for(int i=0;i<boards.size();i++)
         {
-
-            if(arr[mid]<arr[mid+1])
+            if(boards.get(i)+BoardSum<=mid)
             {
-
-                start=mid+1;
+                BoardSum+=boards.get(i);
             }
             else{
-                end=mid;
-            }
-            mid= start + (end-start)/2;
+                Painters++;
 
+                if(Painters>k || boards.get(i)>mid)
+                {
+                    return false;
+                }
+                BoardSum=boards.get(i);
+            }
         }
-        return mid;
+        return true;
+    }
+    public static int findLargestMinDistance(ArrayList<Integer> boards, int k)
+    {
+        //    Write your code here.
+        int sum=0;
+        for(int elem:boards)
+        {
+            sum+=elem;
+        }
+
+        int start=0,end=sum;
+        int result=-1;
+
+        while(start<=end)
+        {
+            int mid= start + (end-start)/2;
+
+            if(isvalid(boards,k,mid))
+            {
+                result=mid;
+                end=mid-1;
+            }
+            else{
+                start=mid+1;
+            }
+        }
+        return result;
+
     }
     public static void main(String[] args) {
-       int []arr={3,4,5,1};
-        System.out.println(Peak_in_Mountain(arr));
+        ArrayList<Integer>boards=new ArrayList<>();
+        boards.add(2);
+        boards.add(1);
+        boards.add(5);
+        boards.add(6);
+        boards.add(2);
+        boards.add(3);
+        int k=2;   // Number of painters.
+
+        System.out.println(findLargestMinDistance(boards,k));
     }
 }
