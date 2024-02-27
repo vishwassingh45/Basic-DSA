@@ -1,40 +1,29 @@
 package DSA_with_JAVA;
 
-
-
 public class Revision {
-
-public static void SelectionSort(int []arr)
-{
-    int temp=0;
-    for(int i=0;i<arr.length;i++)
+    public static int Peak_in_Mountain(int []arr)
     {
-        int min=i;
+        int start=0,end=arr.length-1;
 
-        for(int j=i;j<arr.length;j++)
+        int mid= start + (end-start)/2;
+        while(start<end)
         {
-            if(arr[i]>arr[j])
+
+            if(arr[mid]<arr[mid+1])
             {
-                min=j;
+
+                start=mid+1;
             }
+            else{
+                end=mid;
+            }
+            mid= start + (end-start)/2;
+
         }
-        temp=arr[i];
-        arr[i]=arr[min];
-        arr[min]=temp;
+        return mid;
     }
-
-}
-public static void Print(int []arr)
-{
-    for(int elem:arr)
-    {
-        System.out.print(" "  + elem);
-    }
-}
-
     public static void main(String[] args) {
-      int []arr={2,6,1,12,15};
-      SelectionSort(arr);
-      Print(arr);
+       int []arr={3,4,5,1};
+        System.out.println(Peak_in_Mountain(arr));
     }
 }
