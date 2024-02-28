@@ -398,5 +398,27 @@ Explanation: A ship capacity of 6 is the minimum to ship all the packages in 3 d
 
 
 
+22. Split Array Largest Sum
+
+
+Internship Alert!
+Become an SDE Intern by topping this monthly leaderboard! 
+
+banner
+Given an array arr[] of N elements and a number K., split the given array into K subarrays such that the maximum subarray sum achievable out of K subarrays formed is minimum possible. Find that possible subarray sum.
+
+Example 1:
+
+Input:
+N = 4, K = 3
+arr[] = {1, 2, 3, 4}
+Output: 4
+Explanation:
+Optimal Split is {1, 2}, {3}, {4}.
+Maximum sum of all subarrays is 4,
+which is minimum possible for 3 splits. 
+
+
+
 
 ```
